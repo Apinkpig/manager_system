@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 
-import Practice from './pages/demo/Practice'
+import Admin from './admin'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <Practice />
+      <div className='App'>
+        <Admin />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
