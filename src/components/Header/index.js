@@ -52,7 +52,8 @@ class Header extends Component {
     return (
       <div className='header'>
         <Row className='header-top'>
-          <Col span={24}>
+          <Col span={16} className='header-show'>晓枫的个人展示项目（共享单车后台管理系统）</Col>
+          <Col span={8}>
             <span>{`欢迎、${this.state.userName}`}</span>
             <Button onClick={this.showConfirm.bind(this)} type='danger'>退出</Button>
           </Col>
@@ -63,7 +64,7 @@ class Header extends Component {
             <span className='time'>{this.state.sysTime}</span>
             
             <span className='weather-detail'>
-              <img src={this.state.weatherIcon} />
+              <img src={this.state.weatherIcon} alt='icon图标' />
               <span>{this.state.weatherData}</span>
             </span>
           </Col>
