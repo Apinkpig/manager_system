@@ -24,10 +24,6 @@ const menuList = [
         key: '/admin/ui/notification'
       },
       {
-        title: '全局Message',
-        key: '/admin/ui/messages'
-      },
-      {
         title: 'Tab页签',
         key: '/admin/ui/tabs'
       },
