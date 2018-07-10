@@ -1,15 +1,16 @@
 @import './default.less';
-.container{
-  .nav-left{
+.container {
+  .nav-left {
     background-color: #001529;
     height: calc(100vh);
   }
-  .main{
+  .main {
     height: calc(100vh);
     background-color: @colorB;
-  }
-  .content{
-    position: relative;
-    padding: 20px;
+    overflow: auto;
+    .content {
+      position: relative;
+      padding: 20px;
+    }
   }
 }
