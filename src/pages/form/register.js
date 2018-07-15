@@ -31,6 +31,7 @@ class FormRegister extends Component {
   handleSubmit(){
     // 获取所有表单值
     let userInfo = this.props.form.getFieldsValue()
+    console.log(userInfo)
   }
   handleReset(){
     this.props.form.resetFields()
